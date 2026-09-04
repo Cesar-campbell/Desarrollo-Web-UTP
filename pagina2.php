@@ -16,8 +16,13 @@
 
         <div class="resultado">
             <?php
+            function convertirMayusculas($texto) {
+                return strtoupper($texto);
+            }
+
             $Nombre = $_REQUEST['nombre'];
             echo "El nombre es: " . $Nombre . "<br>";
+            echo "El nombre en mayúsculas es: " . convertirMayusculas($Nombre) . "<br>";
 
             $Edad = $_POST["edad"];
 
