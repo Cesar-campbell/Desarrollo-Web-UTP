@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Página estilo Brave</title>
+<style>
+  :root {
+    --brave-orange: #FB542B;
+    --brave-orange-light: #FF7654;
+    --brave-purple: #5B2D90;
+    --brave-dark: #212529;
+    --brave-bg: #FDFDFD;
+    --brave-gray: #F1F1F1;
+    --brave-text: #3F3F3F;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--brave-bg);
+    color: var(--brave-text);
+    line-height: 1.6;
+  }
+
+  header {
+    background-color: var(--brave-dark);
+    color: #ffffff;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--brave-orange);
+  }
+
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+
+  header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  header nav a:hover {
+    color: var(--brave-orange-light);
+  }
+
+  .hero {
+    background-color: var(--brave-orange);
+    color: #ffffff;
+    text-align: center;
+    padding: 80px 20px;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+  }
+
+  .btn {
+    display: inline-block;
+    background-color: var(--brave-dark);
+    color: #ffffff;
+    padding: 12px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+  }
+
+  .btn:hover {
+    background-color: var(--brave-purple);
+  }
+
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 20px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+  }
+
+  .card {
+    background-color: var(--brave-gray);
+    border-top: 4px solid var(--brave-orange);
+    border-radius: 8px;
+    padding: 25px;
+  }
+
+  .card h3 {
+    color: var(--brave-purple);
+    margin-bottom: 10px;
+  }
+
+  footer {
+    background-color: var(--brave-dark);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+  }
+
+  footer span {
+    color: var(--brave-orange-light);
+  }
+</style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Brave</div>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Rewards</a></li>
+        <li><a href="#">Wallet</a></li>
+        <li><a href="#">Descargar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Navega más rápido y seguro</h1>
+    <p>Un navegador basado en la privacidad, con bloqueo de anuncios por defecto.</p>
+    <a href="#" class="btn">Descargar Brave</a>
+  </section>
+
+  <main>
+    <div class="cards">
+      <div class="card">
+        <h3>Privacidad</h3>
+        <p>Bloqueo automático de rastreadores y anuncios en cada sitio que visitas.</p>
+      </div>
+      <div class="card">
+        <h3>Velocidad</h3>
+        <p>Páginas que cargan más rápido al eliminar contenido innecesario.</p>
+      </div>
+      <div class="card">
+        <h3>Recompensas</h3>
+        <p>Gana tokens BAT (Basic Attention Token) por ver anuncios opcionales.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Hecho con <span>&hearts;</span> usando la paleta de colores de Brave</p>
+  </footer>
+
+</body>
+</html>

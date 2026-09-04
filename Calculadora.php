@@ -1,15 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+    <meta charset="UTF-8">
     <title>Calculadora BÁSICA PHP</title>
+    <link rel="stylesheet" href="brave-style.css">
 </head>
 <body>
 
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+
+    <div class="container">
     <h2>Calculadora Básica con Redondeo</h2>
 
     <form method="POST" action="">
         <input type="number" step="any" name="num1" placeholder="Número 1" required>
-        
+
         <select name="operacion">
             <option value="suma">+</option>
             <option value="resta">-</option>
@@ -18,7 +25,7 @@
         </select>
 
         <input type="number" step="any" name="num2" placeholder="Número 2" required>
-        
+
         <button type="submit">Calcular</button>
     </form>
 
@@ -44,6 +51,7 @@
         }
 
         echo "<hr>";
+        echo "<div class='resultado'>";
         echo "<h3>Resultado:</h3>";
 
         // Si el resultado es un número, lo redondeamos a 2 decimales
@@ -53,8 +61,12 @@
         } else {
             echo $resultado;
         }
+        echo "</div>";
     }
     ?>
+    </div>
+
+    <footer>Paleta de colores inspirada en Brave Browser</footer>
 
 </body>
 </html>
