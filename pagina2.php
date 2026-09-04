@@ -17,7 +17,7 @@
         <div class="resultado">
             <?php
             function convertirMayusculas($texto) {
-                return strtoupper($texto);
+                return ucfirst(strtolower($texto));
             }
 
             $Nombre = $_REQUEST['nombre'];
