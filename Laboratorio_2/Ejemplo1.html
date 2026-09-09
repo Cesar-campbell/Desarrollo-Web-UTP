@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo #4 - Navegación Web</title>
+    <link rel="stylesheet" href="../brave-style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2em;
+            line-height: 1.6;
+        }
+
+        /* Selector de clase reutilizable */
+        .card-seccion {
+            background-color: var(--brave-gray, #F1F1F1);
+            border-left: 4px solid var(--brave-orange, #FB542B);
+            padding: 1.5em;
+            margin-bottom: 1em;
+            border-radius: 4px;
+        }
+
+        .card-seccion h2 {
+            color: var(--brave-purple, #5B2D90);
+        }
+
+        /* Selector de ID único para un elemento específico */
+        #footer-recurso {
+            margin-top: 1em;
+            padding-top: 0.5em;
+            border-top: 1px solid #dcdcdc;
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        /* Selector de clase para resaltar texto o enlaces */
+        .link-externo {
+            color: var(--brave-orange, #FB542B);
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .link-externo:hover {
+            color: var(--brave-purple, #5B2D90);
+            text-decoration: underline;
+        }
+
+        code {
+            background-color: #e2e8f0;
+            padding: 0.2em 0.4em;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Usamos una clase (.card-seccion) para dar estilo a esta sección en particular -->
+    <section class="card-seccion">
+        <h2>Ejemplo Práctico: Navegación Web</h2>
+        <p>El siguiente párrafo contiene un hipervínculo que redirige al usuario hacia una página externa:</p>
+
+        <p>
+            Para obtener más información técnica, puedes visitar el siguiente
+            <!-- Usamos una clase (.link-externo) para estilizar este enlace de manera específica -->
+            <a href="https://es.wikipedia.org/wiki/PHP" target="_blank" rel="noopener" class="link-externo">Enlace a PHP</a>.
+        </p>
+
+        <!-- Usamos un ID (#footer-recurso) por ser un pie de sección único dentro de este bloque -->
+        <footer id="footer-recurso">
+            <p><strong>Nota:</strong> Este enlace abre una fuente externa de consulta académica. Última revisión: 2026.</p>
+        </footer>
+    </section>
+
+</body>
+</html>

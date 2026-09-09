@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="Description" content="Informe de gastos de viaje organizado en tabla HTML5" />
+    <meta name="Keywords" content="html5, tablas, th, td, desarrollo web" />
+
+    <meta name="Distribution" content="Global" />
+    <meta name="Author" content="Cesar Campbell - UTP" />
+    <meta name="Robots" content="index,follow" />
+
+    <link rel="stylesheet" href="../brave-style.css">
+    <link rel="stylesheet" href="estilosTabla.css">
+
+    <title>Ejemplo de Tabla #1</title>
+</head>
+<body>
+
+    <header>
+        <h1>Laboratorio #2: Tabla #1</h1>
+    </header>
+
+    <div class="container">
+        <table class="tabla-datos">
+            <caption>Informe de gastos de viaje</caption>
+            <tr>
+                <th></th>
+                <th>Comida</th>
+                <th>Hotel</th>
+                <th>Transporte</th>
+                <th>Subtotal</th>
+            </tr>
+
+            <tr>
+                <th id="buenos-aires" axis="buenos-aires">Buenos Aires</th>
+            </tr>
+            <tr>
+                <th headers="buenos-aires">25-Ago-97</th>
+                <td>37.34</td>
+                <td>112.00</td>
+                <td>45.00</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th headers="buenos-aires">26-Ago-97</th>
+                <td>27.28</td>
+                <td>112.00</td>
+                <td>45.00</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th headers="buenos-aires">Subtotales</th>
+                <td>65.00</td>
+                <td>224.00</td>
+                <td>90.00</td>
+                <td>379.02</td>
+            </tr>
+
+            <tr>
+                <th id="cordoba" axis="cordoba">Córdoba</th>
+            </tr>
+            <tr>
+                <th headers="cordoba">27-ago-97</th>
+                <td>96.00</td>
+                <td>109.00</td>
+                <td>36.00</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th headers="cordoba">28-ago-97</th>
+                <td>35.00</td>
+                <td>109.00</td>
+                <td>36.00</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th headers="cordoba">Subtotales</th>
+                <td>196.27</td>
+                <td>442.00</td>
+                <td>162.00</td>
+                <td>800.27</td>
+            </tr>
+        </table>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Universidad Tecnológica de Panamá &mdash; Laboratorio #2 HTML5 y CSS3</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+/* Estilos de tabla - paleta Brave */
+
+.tabla-datos {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: right;
+    width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.tabla-datos caption {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: var(--brave-purple, #5B2D90);
+    padding-bottom: 10px;
+}
+
+.tabla-datos th {
+    padding: 8px;
+    font-size: 15px;
+    background-color: var(--brave-dark, #212529);
+    color: #ffffff;
+    border-right: 1px solid var(--brave-orange, #FB542B);
+    border-bottom: 1px solid var(--brave-orange, #FB542B);
+    font-family: "Trebuchet MS", Arial;
+    text-transform: uppercase;
+}
+
+.tabla-datos td {
+    padding: 8px;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    font-family: "Trebuchet MS", Arial;
+}
+
+/* --- Tabla #2 --- */
+
+.tabla {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: right;
+    width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.tabla th {
+    padding: 5px;
+    font-size: 16px;
+    background-color: var(--brave-dark, #212529);
+    color: #ffffff;
+    border-right: 1px solid var(--brave-orange, #FB542B);
+    border-bottom: 1px solid var(--brave-orange, #FB542B);
+    font-family: "Trebuchet MS", Arial;
+    text-transform: uppercase;
+}
+
+.tabla .modo1 td {
+    padding: 5px;
+    border-right: 1px solid var(--brave-orange-light, #FF7654);
+    border-bottom: 1px solid var(--brave-orange-light, #FF7654);
+    font-family: "Trebuchet MS", Arial;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+.tabla .modo2 td {
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: var(--brave-gray, #F1F1F1);
+    color: var(--brave-purple, #5B2D90);
+    border-right: 1px solid var(--brave-orange-light, #FF7654);
+    border-bottom: 1px solid var(--brave-orange-light, #FF7654);
+    font-family: "Trebuchet MS", Arial;
+    text-align: left;
+}

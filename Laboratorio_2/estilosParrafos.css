@@ -1,0 +1,10 @@
+/* Estilo del selector descendiente "p strong" - paleta Brave */
+p strong {
+    font-family: "Trebuchet MS", Arial;
+    font-size: 14px;
+    text-align: justify;
+    color: #ffffff;
+    background-color: var(--brave-orange, #FB542B);
+    padding: 0 4px;
+    border-radius: 3px;
+}
