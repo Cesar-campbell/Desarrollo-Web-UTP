@@ -1,0 +1,27 @@
+# =====================================================================
+# uploaded_files/.htaccess
+# Seguridad perimetral (nivel de carpeta): Apache bloquea CUALQUIER
+# acceso desde el navegador a esta carpeta: las fotos, el listado del
+# directorio y cualquier script que alguien intente subir.
+# PHP sí puede leer y escribir aquí porque accede por el sistema de
+# archivos (move_uploaded_file / file_get_contents), no por una URL.
+# =====================================================================
+
+# Apache 2.4 o superior (WAMP actual)
+<IfModule mod_authz_core.c>
+    Require all denied
+</IfModule>
+
+# Apache 2.2 (versiones antiguas)
+<IfModule !mod_authz_core.c>
+    Order deny,allow
+    Deny from all
+</IfModule>
+
+# Capa extra: si PHP corre como módulo de Apache, no ejecutar código PHP aquí
+<IfModule mod_php.c>
+    php_flag engine off
+</IfModule>
+<IfModule mod_php7.c>
+    php_flag engine off
+</IfModule>
