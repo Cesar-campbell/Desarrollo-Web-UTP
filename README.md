@@ -2,7 +2,7 @@
 
 Repositorio de prácticas y laboratorios del curso de Desarrollo Web, usando **PHP, HTML y CSS**.
 
-## 📁 Estructura
+## Estructura
 
 ```
 Desarrollo-Web-UTP/
@@ -15,7 +15,7 @@ Desarrollo-Web-UTP/
 └── extras/             Estilo Brave compartido por los laboratorios
 ```
 
-## 🧪 Laboratorios
+## Laboratorios
 
 ### [LAB_1_PHP](LAB_1_PHP/) — Fundamentos de PHP
 - [`Variable.php`](LAB_1_PHP/Variable.php) — Variables y salida dinámica con `echo`.
@@ -44,14 +44,14 @@ Sistema en PHP y Bootstrap para registrar aspirantes: formulario con datos perso
 ### [LAB_5_LARAVEL](LAB_5_LARAVEL/) — Sistema de usuarios con Laravel
 Aplicación en Laravel 13 con Breeze y SQLite: registro, inicio de sesión, modificación del perfil y eliminación de la cuenta. Su [README](LAB_5_LARAVEL/README.md) documenta con capturas cada operación (insertar, modificar, eliminar), los controles usados, la instalación paso a paso y las versiones.
 
-## ✏️ Prácticas — [practicas/](practicas/)
+## Prácticas — [practicas/](practicas/)
 - [`For.php`](practicas/For.php) — Bucle `for`.
 - [`Foreach.php`](practicas/Foreach.php) — Bucle `foreach` sobre un array de animales.
 - [`EjemploLateStatic.php`](practicas/EjemploLateStatic.php) — Ejemplo de enlace estático tardío (`static::`).
 - [`IA.php`](practicas/IA.php) — Chat con IA básica usando `$_SESSION` para mantener el historial.
 
-## 🎨 Extras — [extras/](extras/)
+## Extras — [extras/](extras/)
 - [`Brave.html`](extras/Brave.html) y [`brave-style.css`](extras/brave-style.css) — Página de ejemplo y hoja de estilos inspirada en Brave Browser. Los laboratorios 1 y 2 enlazan este CSS con `../extras/brave-style.css`.
 
 ---
-📌 Curso: Desarrollo Web — UTP
+Curso: Desarrollo Web — UTP
