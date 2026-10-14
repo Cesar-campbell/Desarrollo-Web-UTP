@@ -31,9 +31,9 @@ Repositorio de prácticas y laboratorios del curso de Desarrollo Web, usando **P
 ### 4. Proyecto con sesiones — IA básica en PHP
 - [`IA.php`](IA.php) — Chat con IA básica usando `$_SESSION` para mantener el historial de conversación.
 
-### Laboratorio_2/
-- [`Laboratorio_2/Lab_2.php`](Laboratorio_2/Lab_2.php)
-- [`Laboratorio_2/Tablas.html`](Laboratorio_2/Tablas.html)
+### LAB_2_HTML5/
+- [`LAB_2_HTML5/Lab_2.php`](LAB_2_HTML5/Lab_2.php)
+- [`LAB_2_HTML5/Tablas.html`](LAB_2_HTML5/Tablas.html)
 
 ---
 📌 Curso: Desarrollo Web — UTP
