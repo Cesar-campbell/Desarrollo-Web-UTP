@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejemplo #5 - Estructura con Secciones Semánticas</title>
-    <link rel="stylesheet" href="../brave-style.css">
+    <link rel="stylesheet" href="../extras/brave-style.css">
     <style>
         body {
             font-family: Arial, sans-serif;

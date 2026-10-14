@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Operaciones Matemáticas Básicas</title>
-    <link rel="stylesheet" href="../brave-style.css">
+    <link rel="stylesheet" href="../extras/brave-style.css">
 </head>
 <body>
 

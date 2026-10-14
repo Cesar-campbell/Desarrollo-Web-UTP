@@ -18,18 +18,18 @@ Repositorio de prácticas y laboratorios del curso de Desarrollo Web, usando **P
 - [`info.php`](info.php) — Muestra la información de configuración de PHP (`phpinfo()`).
 
 ### 3. Estructuras de control, arrays y validaciones
-- [`For.php`](For.php) — Ejemplo de bucle `for`.
-- [`Foreach.php`](Foreach.php) — Ejemplo de bucle `foreach` sobre un array de animales.
+- [`For.php`](practicas/For.php) — Ejemplo de bucle `for`.
+- [`Foreach.php`](practicas/Foreach.php) — Ejemplo de bucle `foreach` sobre un array de animales.
 - [`Equipos.php`](Equipos.php) — Recorrido de un array asociativo (equipo de fútbol) con `foreach`.
 - [`Random.php`](Random.php) — Generador de números aleatorios con `do...while`.
 - [`EjemploEmpty.php`](EjemploEmpty.php) — Ejemplo de uso de `isset()`.
 - [`EjemploHTML.php`](EjemploHTML.php) — Ejemplo de `htmlspecialchars()` para escapar HTML.
 - [`EjemploValidacion.php`](EjemploValidacion.php) — Validación de variables con `isset()`.
 - [`Ejemplo.html`](Ejemplo.html) — Página HTML de ejemplo (MDN).
-- [`Brave.html`](Brave.html) / [`brave-style.css`](brave-style.css) — Página de ejemplo con estilo propio inspirado en Brave Browser.
+- [`Brave.html`](extras/Brave.html) / [`brave-style.css`](extras/brave-style.css) — Página de ejemplo con estilo propio inspirado en Brave Browser.
 
 ### 4. Proyecto con sesiones — IA básica en PHP
-- [`IA.php`](IA.php) — Chat con IA básica usando `$_SESSION` para mantener el historial de conversación.
+- [`IA.php`](practicas/IA.php) — Chat con IA básica usando `$_SESSION` para mantener el historial de conversación.
 
 ### LAB_2_HTML5/
 - [`LAB_2_HTML5/Lab_2.php`](LAB_2_HTML5/Lab_2.php)
