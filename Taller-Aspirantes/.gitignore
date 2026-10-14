@@ -1,0 +1,10 @@
+# No subir al repositorio las fotos de los aspirantes (datos personales).
+# Solo se conserva la carpeta vacía (.gitkeep) y su protección (.htaccess).
+uploaded_files/*
+!uploaded_files/.gitkeep
+!uploaded_files/.htaccess
+
+# Archivos del sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
