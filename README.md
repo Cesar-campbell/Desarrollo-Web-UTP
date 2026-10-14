@@ -7,7 +7,7 @@ Repositorio de prácticas y laboratorios del curso de Desarrollo Web, usando **P
 ```
 Desarrollo-Web-UTP/
 ├── LAB_1_PHP/          Laboratorio 1: fundamentos de PHP
-├── LAB_2_HTML5/        Laboratorio 2: HTML5 y CSS3
+├── Laboratorio_2/      Laboratorio 2: HTML5 y CSS3
 ├── Taller-Aspirantes/  Laboratorio 3: registro de aspirantes
 ├── LAB_4_POO/          Laboratorio 4: programación orientada a objetos
 ├── LAB_5_LARAVEL/      Laboratorio 5: sistema de usuarios con Laravel y Breeze
@@ -30,10 +30,10 @@ Desarrollo-Web-UTP/
 - [`Equipos.php`](LAB_1_PHP/Equipos.php) — Recorrido de un array asociativo (equipo de fútbol) con `foreach`.
 - [`Random.php`](LAB_1_PHP/Random.php) — Generador de números aleatorios con `do...while`.
 
-### [LAB_2_HTML5](LAB_2_HTML5/) — HTML5 y CSS3
-- Párrafos: [`parrafos.html`](LAB_2_HTML5/parrafos.html) con [`estilosParrafos.css`](LAB_2_HTML5/estilosParrafos.css).
-- Tablas: [`tablas.html`](LAB_2_HTML5/tablas.html), [`tablas2.html`](LAB_2_HTML5/tablas2.html) y [`Tablas.html`](LAB_2_HTML5/Tablas.html) con [`estilosTabla.css`](LAB_2_HTML5/estilosTabla.css).
-- Ejemplos: [`Ejemplo1.html`](LAB_2_HTML5/Ejemplo1.html) y [`EjemploSecciones.php`](LAB_2_HTML5/EjemploSecciones.php).
+### [Laboratorio_2](Laboratorio_2/) — HTML5 y CSS3
+- Párrafos: [`parrafos.html`](Laboratorio_2/parrafos.html) con [`estilosParrafos.css`](Laboratorio_2/estilosParrafos.css).
+- Tablas: [`tablas.html`](Laboratorio_2/tablas.html), [`tablas2.html`](Laboratorio_2/tablas2.html) y [`Tablas.html`](Laboratorio_2/Tablas.html) con [`estilosTabla.css`](Laboratorio_2/estilosTabla.css).
+- Ejemplos: [`Ejemplo1.html`](Laboratorio_2/Ejemplo1.html) y [`EjemploSecciones.php`](Laboratorio_2/EjemploSecciones.php).
 
 ### [Taller-Aspirantes](Taller-Aspirantes/) — Registro de Aspirantes
 Sistema en PHP y Bootstrap para registrar aspirantes: formulario con datos personales y fotografía, validación y saneamiento en el backend, y almacenamiento de la foto en una carpeta protegida. No usa base de datos. Ver su [README](Taller-Aspirantes/README.md).
