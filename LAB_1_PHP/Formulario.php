@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Formulario de entrada del dato</title>
-  <link rel="stylesheet" href="brave-style.css">
+  <link rel="stylesheet" href="../brave-style.css">
 </head>
 
 <body>

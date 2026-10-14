@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Resultado del Formulario</title>
-    <link rel="stylesheet" href="brave-style.css">
+    <link rel="stylesheet" href="../brave-style.css">
 </head>
 <body>
 
