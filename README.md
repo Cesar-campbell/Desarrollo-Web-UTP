@@ -8,7 +8,7 @@ Repositorio de prácticas y laboratorios del curso de Desarrollo Web, usando **P
 Desarrollo-Web-UTP/
 ├── LAB_1_PHP/          Laboratorio 1: fundamentos de PHP
 ├── LAB_2_HTML5/        Laboratorio 2: HTML5 y CSS3
-├── LAB_3_ASPIRANTES/   Laboratorio 3: registro de aspirantes
+├── Taller-Aspirantes/  Laboratorio 3: registro de aspirantes
 ├── LAB_4_POO/          Laboratorio 4: programación orientada a objetos
 ├── LAB_5_LARAVEL/      Laboratorio 5: sistema de usuarios con Laravel y Breeze
 ├── practicas/          Ejercicios sueltos de PHP
@@ -35,8 +35,8 @@ Desarrollo-Web-UTP/
 - Tablas: [`tablas.html`](LAB_2_HTML5/tablas.html), [`tablas2.html`](LAB_2_HTML5/tablas2.html) y [`Tablas.html`](LAB_2_HTML5/Tablas.html) con [`estilosTabla.css`](LAB_2_HTML5/estilosTabla.css).
 - Ejemplos: [`Ejemplo1.html`](LAB_2_HTML5/Ejemplo1.html) y [`EjemploSecciones.php`](LAB_2_HTML5/EjemploSecciones.php).
 
-### [LAB_3_ASPIRANTES](LAB_3_ASPIRANTES/) — Registro de Aspirantes
-Sistema en PHP y Bootstrap para registrar aspirantes: formulario con datos personales y fotografía, validación y saneamiento en el backend, y almacenamiento de la foto en una carpeta protegida. No usa base de datos. Ver su [README](LAB_3_ASPIRANTES/README.md).
+### [Taller-Aspirantes](Taller-Aspirantes/) — Registro de Aspirantes
+Sistema en PHP y Bootstrap para registrar aspirantes: formulario con datos personales y fotografía, validación y saneamiento en el backend, y almacenamiento de la foto en una carpeta protegida. No usa base de datos. Ver su [README](Taller-Aspirantes/README.md).
 
 ### [LAB_4_POO](LAB_4_POO/) — Programación orientada a objetos
 - [`Problema_1_Herencia.php`](LAB_4_POO/Problema_1_Herencia.php) a [`Problema_5_Herencia.php`](LAB_4_POO/Problema_5_Herencia.php) — Cinco problemas de herencia en PHP.
