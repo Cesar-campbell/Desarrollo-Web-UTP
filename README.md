@@ -10,7 +10,7 @@ Desarrollo-Web-UTP/
 ├── Laboratorio_2/      Laboratorio 2: HTML5 y CSS3
 ├── Taller-Aspirantes/  Laboratorio 3: registro de aspirantes
 ├── LAB_4_POO/          Laboratorio 4: programación orientada a objetos
-├── LAB_5_LARAVEL/      Laboratorio 5: sistema de usuarios con Laravel y Breeze
+├── LAB_5_LARAVEL/      Laboratorio 5: usuarios y CRUD de productos con Laravel
 ├── practicas/          Ejercicios sueltos de PHP
 └── extras/             Estilo Brave compartido por los laboratorios
 ```
@@ -41,8 +41,8 @@ Sistema en PHP y Bootstrap para registrar aspirantes: formulario con datos perso
 ### [LAB_4_POO](LAB_4_POO/) — Programación orientada a objetos
 - [`Problema_1_Herencia.php`](LAB_4_POO/Problema_1_Herencia.php) a [`Problema_5_Herencia.php`](LAB_4_POO/Problema_5_Herencia.php) — Cinco problemas de herencia en PHP.
 
-### [LAB_5_LARAVEL](LAB_5_LARAVEL/) — Sistema de usuarios con Laravel
-Aplicación en Laravel 13 con Breeze y SQLite: registro, inicio de sesión, modificación del perfil y eliminación de la cuenta. Su [README](LAB_5_LARAVEL/README.md) documenta con capturas cada operación (insertar, modificar, eliminar), los controles usados, la instalación paso a paso y las versiones.
+### [LAB_5_LARAVEL](LAB_5_LARAVEL/) — Usuarios y CRUD de productos con Laravel
+Aplicación en Laravel 13 con Breeze y SQLite: registro, inicio de sesión, modificación del perfil y eliminación de la cuenta, más un CRUD completo de la tabla `products` generado con `ibex/crud-generator`. Su [README](LAB_5_LARAVEL/README.md) documenta con capturas cada operación (insertar, modificar, eliminar) y el CRUD de productos, los controles usados, la instalación paso a paso y las versiones.
 
 ## Prácticas — [practicas/](practicas/)
 - [`For.php`](practicas/For.php) — Bucle `for`.
