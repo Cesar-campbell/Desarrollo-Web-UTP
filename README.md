@@ -2,6 +2,9 @@
 
 Repositorio de prácticas y laboratorios del curso de Desarrollo Web, usando **PHP, HTML y CSS**.
 
+**Estudiante:** Cesar Campbell  
+**Cédula:** 8-1041-2239
+
 ## Estructura
 
 ```
@@ -11,6 +14,7 @@ Desarrollo-Web-UTP/
 ├── Taller-Aspirantes/  Laboratorio 3: registro de aspirantes
 ├── LAB_4_POO/          Laboratorio 4: programación orientada a objetos
 ├── LAB_5_LARAVEL/      Laboratorio 5: usuarios y CRUD de productos con Laravel
+├── LAB_6_OPENSSL/      Laboratorio 6: firma digital y cifrado con OpenSSL y Sodium
 ├── practicas/          Ejercicios sueltos de PHP
 └── extras/             Estilo Brave compartido por los laboratorios
 ```
@@ -55,3 +59,6 @@ Aplicación en Laravel 13 con Breeze y SQLite: registro, inicio de sesión, modi
 
 ---
 Curso: Desarrollo Web — UTP
+
+### [LAB_6_OPENSSL](LAB_6_OPENSSL/) — Seguridad en PHP con OpenSSL y Sodium
+Formularios para cifrado AES, firma digital RSA, certificados X.509 autofirmados y un ejemplo con Libsodium (Argon2, secretbox, Ed25519). Su [README](LAB_6_OPENSSL/README.md) documenta las funciones usadas.
